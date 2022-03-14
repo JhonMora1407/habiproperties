@@ -107,12 +107,12 @@ Request Query Params
 | **Required** | **Key**      | **Value**        |
 | ------------ | ------------ | ---------------- |
 | Optional     | year         |  int             |
-| Optional     | city         | `token`          |
-| Optional     | status       | `token`          |
+| Optional     | city         |  str             |
+| Optional     | status       |  str             |
 
 Refer the [api specification](#api-specification) for more info.
 
-python -m unittest habiproperties/general/test/test_connection.py 
-python -m unittest habiproperties/properties/test/test_filters.py 
+python -m unittest HabiPropertiesAPI/test/test_connection.py
+python -m unittest HabiPropertiesAPI/properties/test/test_filters.py 
 
 ---
