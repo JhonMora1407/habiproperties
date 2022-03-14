@@ -8,4 +8,7 @@ CREATE TABLE user_property (
   CONSTRAINT property_id_fk FOREIGN KEY (property_id) REFERENCES property (id)
 );
 
-Se crea de esta forma para que exista la relacion cliente propieda y cada vez que se consulte por 
+
+It is created in this way so that there is a client-property relationship and each time that property is consulted, 
+the user will be able to indicate the vote and be related, when searching by property, since it is a numerical data, 
+the number of votes could easily be added. or group by dwelling and thus obtain the votes by house
