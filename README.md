@@ -110,9 +110,8 @@ Request Query Params
 | Optional     | city         |  str             |
 | Optional     | status       |  str             |
 
-Refer the [api specification](#api-specification) for more info.
 
-python -m unittest HabiPropertiesAPI/test/test_connection.py
-python -m unittest HabiPropertiesAPI/properties/test/test_filters.py 
+    python -m unittest HabiPropertiesAPI/test/test_connection.py
+    python -m unittest HabiPropertiesAPI/properties/test/test_filters.py 
 
 ---
